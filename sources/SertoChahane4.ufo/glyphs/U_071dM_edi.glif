@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U071dMedi" format="2">
+  <advance width="719"/>
+  <unicode hex="036F"/>
+  <anchor x="-105" y="885" name="Anchor-4"/>
+  <anchor x="420" y="-240" name="Anchor-3"/>
+  <anchor x="405" y="-240" name="Anchor-2"/>
+  <anchor x="645" y="405" name="Anchor-1"/>
+  <anchor x="210" y="525" name="Anchor-0"/>
+  <outline>
+    <contour>
+      <point x="-100" y="0" type="line"/>
+      <point x="-100" y="176" type="line"/>
+      <point x="0" y="176" type="line"/>
+      <point x="258" y="176" type="line"/>
+      <point x="255" y="194" type="line"/>
+      <point x="255" y="220"/>
+      <point x="270" y="253" type="qcurve" smooth="yes"/>
+      <point x="292" y="298"/>
+      <point x="346" y="350" type="qcurve"/>
+      <point x="381" y="341"/>
+      <point x="442" y="307" type="qcurve" smooth="yes"/>
+      <point x="529" y="261"/>
+      <point x="574" y="208" type="qcurve" smooth="yes"/>
+      <point x="592" y="187"/>
+      <point x="600" y="176" type="qcurve"/>
+      <point x="719" y="176" type="line"/>
+      <point x="719" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

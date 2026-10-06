@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overscore" format="2">
+  <advance width="1229"/>
+  <unicode hex="203E"/>
+  <outline>
+    <contour>
+      <point x="1256" y="1382" type="qcurve" smooth="yes"/>
+      <point x="1256" y="1340"/>
+      <point x="1203" y="1340" type="qcurve" smooth="yes"/>
+      <point x="26" y="1340" type="line" smooth="yes"/>
+      <point x="-27" y="1340"/>
+      <point x="-27" y="1383" type="qcurve" smooth="yes"/>
+      <point x="-27" y="1425"/>
+      <point x="26" y="1425" type="qcurve" smooth="yes"/>
+      <point x="1203" y="1425" type="line" smooth="yes"/>
+      <point x="1256" y="1425"/>
+    </contour>
+  </outline>
+</glyph>

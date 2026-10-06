@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0650" format="2">
+  <advance width="0"/>
+  <unicode hex="0650"/>
+  <anchor x="210" y="-255" name="Anchor-17"/>
+  <anchor x="165" y="15" name="_Anchor-17"/>
+  <anchor x="170" y="0" name="_Anchor-13"/>
+  <anchor x="180" y="15" name="_Anchor-8"/>
+  <anchor x="75" y="15" name="_Anchor-2"/>
+  <outline>
+    <contour>
+      <point x="305" y="-2" type="line"/>
+      <point x="305" y="-62"/>
+      <point x="273" y="-80" type="qcurve" smooth="yes"/>
+      <point x="0" y="-235" type="line"/>
+      <point x="4" y="-176"/>
+      <point x="60" y="-144" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

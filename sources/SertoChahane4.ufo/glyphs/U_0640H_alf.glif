@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0640Half" format="2">
+  <advance width="258"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="258" y="0" type="line"/>
+      <point x="-70" y="0" type="line"/>
+      <point x="-70" y="176" type="line"/>
+      <point x="258" y="176" type="line"/>
+    </contour>
+  </outline>
+</glyph>

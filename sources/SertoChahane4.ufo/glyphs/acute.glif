@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="2">
+  <advance width="705"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="492" y="1278" type="qcurve" smooth="yes"/>
+      <point x="492" y="1259"/>
+      <point x="467" y="1237" type="qcurve" smooth="yes"/>
+      <point x="230" y="1033" type="line" smooth="yes"/>
+      <point x="207" y="1013"/>
+      <point x="192" y="1013" type="qcurve" smooth="yes"/>
+      <point x="150" y="1013"/>
+      <point x="150" y="1056" type="qcurve" smooth="yes"/>
+      <point x="150" y="1075"/>
+      <point x="175" y="1097" type="qcurve" smooth="yes"/>
+      <point x="411" y="1301" type="line" smooth="yes"/>
+      <point x="434" y="1321"/>
+      <point x="450" y="1321" type="qcurve" smooth="yes"/>
+      <point x="492" y="1321"/>
+    </contour>
+  </outline>
+</glyph>

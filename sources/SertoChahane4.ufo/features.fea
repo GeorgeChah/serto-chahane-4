@@ -1,0 +1,1277 @@
+languagesystem syrc dflt;
+
+
+# GSUB 
+
+
+lookup ccmpGlyphCompositionDecompositioninSyriaclookup0 {
+  lookupflag RightToLeft;
+    sub \U0732 by \U073c \U073f ;
+} ccmpGlyphCompositionDecompositioninSyriaclookup0;
+
+lookup initInitialFormsinSyriaclookup1 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0712 by \U0712Init ;
+    sub \U0713 by \U0713Init ;
+    sub \U0714 by \U0714Init ;
+    sub \U071a by \U071aInit ;
+    sub \U071b by \U071bInit ;
+    sub \U071c by \U071cInit ;
+    sub \U071d by \U071dInit ;
+    sub \U071f by \U071fInit ;
+    sub \U0720 by \U0720Init ;
+    sub \U0721 by \U0721Init ;
+    sub \U0722 by \U0722Init ;
+    sub \U0723 by \U0723Init ;
+    sub \U0724 by \U0724Init ;
+    sub \U0725 by \U0725Init ;
+    sub \U0726 by \U0726Init ;
+    sub \U0727 by \U0727Init ;
+    sub \U0729 by \U0729Init ;
+    sub \U072b by \U072bInit ;
+} initInitialFormsinSyriaclookup1;
+
+lookup mediMedialFormsinSyriaclookup2 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0712 by \U0712Medi ;
+    sub \U0713 by \U0713Medi ;
+    sub \U0714 by \U0714Medi ;
+    sub \U071a by \U071aMedi ;
+    sub \U071b by \U071bMedi ;
+    sub \U071c by \U071cMedi ;
+    sub \U071d by \U071dMedi ;
+    sub \U071f by \U071fMedi ;
+    sub \U0720 by \U0720Medi ;
+    sub \U0721 by \U0721Medi ;
+    sub \U0722 by \U0722Medi ;
+    sub \U0723 by \U0723Medi ;
+    sub \U0724 by \U0724Medi ;
+    sub \U0725 by \U0725Medi ;
+    sub \U0726 by \U0726Medi ;
+    sub \U0727 by \U0727Medi ;
+    sub \U0729 by \U0729Medi ;
+    sub \U072b by \U072bMedi ;
+} mediMedialFormsinSyriaclookup2;
+
+lookup med2MedialForms2inSyriaclookup3 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710 by \U0710Medi2 ;
+} med2MedialForms2inSyriaclookup3;
+
+lookup finaTerminalFormsinSyriaclookup4 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710 by \U0710Fina1 ;
+    sub \U0712 by \U0712Fina ;
+    sub \U0713 by \U0713Fina ;
+    sub \U0714 by \U0714Fina ;
+    sub \U0715 by \U0715Fina ;
+    sub \U0716 by \U0716Fina ;
+    sub \U0717 by \U0717Fina ;
+    sub \U0718 by \U0718Fina ;
+    sub \U0719 by \U0719Fina ;
+    sub \U071a by \U071aFina ;
+    sub \U071b by \U071bFina ;
+    sub \U071c by \U071cFina ;
+    sub \U071d by \U071dFina ;
+    sub \U071e by \U071eFina ;
+    sub \U071f by \U071fFina ;
+    sub \U0720 by \U0720Fina ;
+    sub \U0721 by \U0721Fina ;
+    sub \U0722 by \U0722Fina ;
+    sub \U0723 by \U0723Fina ;
+    sub \U0724 by \U0724Fina ;
+    sub \U0725 by \U0725Fina ;
+    sub \U0726 by \U0726Fina ;
+    sub \U0727 by \U0727Fina ;
+    sub \U0728 by \U0728Fina ;
+    sub \U0729 by \U0729Fina ;
+    sub \U072a by \U072aFina ;
+    sub \U072b by \U072bFina ;
+    sub \U072c by \U072cFina ;
+} finaTerminalFormsinSyriaclookup4;
+
+lookup fin2TerminalForms2inSyriaclookup5 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710 by \U0710Fina2 ;
+} fin2TerminalForms2inSyriaclookup5;
+
+lookup fin3TerminalForms3inSyriaclookup6 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710 by \U0710Fina3 ;
+} fin3TerminalForms3inSyriaclookup6;
+
+lookup ligaStandardLigaturesinSyriaclookup7 {
+  lookupflag RightToLeft;
+    sub \U072a \U0308  by \U072aU0308Isol;
+    sub \U072aFina \U0308  by \U072aU0308Fina;
+} ligaStandardLigaturesinSyriaclookup7;
+
+lookup ligaStandardLigaturesinSyriaclookup8 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0720Init \U0710Medi2  by \U0720U0710Isol;
+    sub \U0720Init \U0710Fina1  by \U0720U0710Isol;
+    sub \U0720Medi \U0710Medi2  by \U0720U0710Fina;
+    sub \U0720Medi \U0710Fina1  by \U0720U0710Fina;
+} ligaStandardLigaturesinSyriaclookup8;
+
+lookup ligaStandardLigaturesinSyriaclookup9 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710 \U0720Init  by \U0710U0720Init;
+} ligaStandardLigaturesinSyriaclookup9;
+
+lookup MultipleSubstitutionlookup12 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0710U0720Init by \U0710 \U0720Init ;
+} MultipleSubstitutionlookup12;
+
+lookup ligaStandardLigaturesinSyriaclookup10 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub [\U0710 \U0716 \U0717 \U0719 \U071e \U0728 \U072a \U072c \U0710Medi2 \U0710Fina1 
+	\U0710Fina2 \U0710Fina3 \U0715Fina \U0716Fina \U0717Fina \U0718Fina 
+	\U0719Fina \U071eFina \U0728Fina \U072aFina \U072cFina ] [\U0710U0720Init ]'lookup MultipleSubstitutionlookup12  ;
+} ligaStandardLigaturesinSyriaclookup10;
+
+lookup dligDiscretionaryLigaturesinSyriaclookup11 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \U0728 \U0722  by \U0728U0722Isol;
+    sub \U0728Fina \U0722  by \U0728U0722Fina;
+    sub \U0713Init \U0720Fina  by \U0713U0720Isol;
+    sub \U0713Medi \U0720Fina  by \U0713U0720Fina;
+    sub \U0713Init \U0720Medi  by \U0713U0720Init;
+    sub \U0713Medi \U0720Medi  by \U0713U0720Medi;
+    sub \U0713Init \U0725Fina  by \U0713U0725Isol;
+    sub \U0713Medi \U0725Fina  by \U0713U0725Fina;
+    sub \U0713Init \U0725Medi  by \U0713U0725Init;
+    sub \U0713Medi \U0725Medi  by \U0713U0725Medi;
+    sub \U071bInit \U0725Fina  by \U071bU0725Isol;
+    sub \U071bMedi \U0725Fina  by \U071bU0725Fina;
+    sub \U071bInit \U0725Medi  by \U071bU0725Init;
+    sub \U071bMedi \U0725Medi  by \U071bU0725Medi;
+    sub \U071dInit \U072cFina  by \U071dU072cIsol;
+    sub \U071dMedi \U072cFina  by \U071bU072cFina;
+    sub \U071fInit \U0720Fina  by \U071fU0720Isol;
+    sub \U071fMedi \U0720Fina  by \U071fU0720Fina;
+    sub \U071fInit \U0720Medi  by \U071fU0720Init;
+    sub \U071fMedi \U0720Medi  by \U071fU0720Medi;
+    sub \U071fInit \U072cFina  by \U071fU072cIsol;
+    sub \U071fMedi \U072cFina  by \U071fU072cFina;
+    sub \U0720Init \U0720Fina  by \U0720U0720Isol;
+    sub \U0720Medi \U0720Fina  by \U0720U0720Fina;
+    sub \U0720Init \U0720Medi  by \U0720U0720Init;
+    sub \U0720Medi \U0720Medi  by \U0720U0720Medi;
+    sub \U0722Init \U0710Fina1  by \U0722U0710Isol;
+    sub \U071bInit \U0720Fina  by \U071bU0720Isol;
+    sub \U071bMedi \U0720Fina  by \U071bU0720Fina;
+    sub \U071bInit \U0720Medi  by \U071bU0720Init;
+    sub \U071bMedi \U0720Medi  by \U071bU0720Medi;
+    sub \U071cInit \U0725Fina  by \U071cU0725Isol;
+    sub \U071cMedi \U0725Fina  by \U071cU0725Fina;
+    sub \U071cInit \U0725Medi  by \U071cU0725Init;
+    sub \U071cMedi \U0725Medi  by \U071cU0725Medi;
+    sub \U071cInit \U0720Fina  by \U072cU0720Isol;
+    sub \U071cMedi \U0720Fina  by \U072cU0720Fina;
+    sub \U071cInit \U0720Medi  by \U072cU0720Init;
+    sub \U071cMedi \U0720Medi  by \U072cU0720Medi;
+} dligDiscretionaryLigaturesinSyriaclookup11;
+
+feature ccmp {
+
+ script syrc;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninSyriaclookup0;
+} ccmp;
+
+feature init {
+
+ script syrc;
+     language dflt ;
+      lookup initInitialFormsinSyriaclookup1;
+} init;
+
+feature medi {
+
+ script syrc;
+     language dflt ;
+      lookup mediMedialFormsinSyriaclookup2;
+} medi;
+
+feature med2 {
+
+ script syrc;
+     language dflt ;
+      lookup med2MedialForms2inSyriaclookup3;
+} med2;
+
+feature fina {
+
+ script syrc;
+     language dflt ;
+      lookup finaTerminalFormsinSyriaclookup4;
+} fina;
+
+feature fin2 {
+
+ script syrc;
+     language dflt ;
+      lookup fin2TerminalForms2inSyriaclookup5;
+} fin2;
+
+feature fin3 {
+
+ script syrc;
+     language dflt ;
+      lookup fin3TerminalForms3inSyriaclookup6;
+} fin3;
+
+feature liga {
+
+ script syrc;
+     language dflt ;
+      lookup ligaStandardLigaturesinSyriaclookup7;
+      lookup ligaStandardLigaturesinSyriaclookup8;
+      lookup ligaStandardLigaturesinSyriaclookup9;
+      lookup ligaStandardLigaturesinSyriaclookup10;
+} liga;
+
+feature dlig {
+
+ script syrc;
+     language dflt ;
+      lookup dligDiscretionaryLigaturesinSyriaclookup11;
+} dlig;
+
+# GPOS 
+
+
+lookup markMarkPositioninginSyriaclookup0 {
+  lookupflag RightToLeft;
+  markClass [\U0656 ] <anchor 165 15> @Anchor0;
+  markClass [\U0303 \U074a ] <anchor 210 0> @Anchor0;
+  markClass [\U0304 \U0308 ] <anchor 180 -15> @Anchor0;
+  markClass [\U0307 ] <anchor 75 -15> @Anchor0;
+  markClass [\U064b \U0654 ] <anchor 135 0> @Anchor0;
+  markClass [\U064c \U0651 ] <anchor 150 -15> @Anchor0;
+  markClass [\U064e ] <anchor 120 0> @Anchor0;
+  markClass [\U064f ] <anchor 165 -30> @Anchor0;
+  markClass [\U0652 ] <anchor 105 -15> @Anchor0;
+  markClass [\U0653 ] <anchor 240 -15> @Anchor0;
+  markClass [\U0711 ] <anchor 60 -15> @Anchor0;
+  markClass [\U0730 ] <anchor 300 45> @Anchor0;
+  markClass [\U0733 ] <anchor 210 -15> @Anchor0;
+  markClass [\U0735 ] <anchor 165 -15> @Anchor0;
+  markClass [\U0736 ] <anchor 180 0> @Anchor0;
+  markClass [\U073a \U0747 ] <anchor 285 0> @Anchor0;
+  markClass [\U073d ] <anchor 300 -15> @Anchor0;
+  markClass [\U073f ] <anchor 90 -15> @Anchor0;
+  markClass [\U0743 ] <anchor 90 0> @Anchor0;
+  markClass [\U0745 ] <anchor 195 0> @Anchor0;
+  markClass [\U0749 ] <anchor 465 15> @Anchor0;
+  markClass [\U030a ] <anchor 135 -15> @Anchor1;
+  markClass [\U0741 ] <anchor 90 0> @Anchor1;
+  markClass [\U0331 ] <anchor 180 0> @Anchor2;
+  markClass [\U0323 \U073c \U0744 ] <anchor 90 15> @Anchor2;
+  markClass [\U0324 \U0330 ] <anchor 195 15> @Anchor2;
+  markClass [\U032d ] <anchor 195 0> @Anchor2;
+  markClass [\U032e \U0734 \U0738 \U073e ] <anchor 165 15> @Anchor2;
+  markClass [\U064d ] <anchor 120 0> @Anchor2;
+  markClass [\U0650 ] <anchor 75 15> @Anchor2;
+  markClass [\U0655 ] <anchor 135 0> @Anchor2;
+  markClass [\U0731 ] <anchor 255 -15> @Anchor2;
+  markClass [\U0737 \U073b ] <anchor 210 15> @Anchor2;
+  markClass [\U0739 ] <anchor 165 -15> @Anchor2;
+  markClass [\U0746 ] <anchor 210 0> @Anchor2;
+  markClass [\U0748 ] <anchor 270 -15> @Anchor2;
+  markClass [\U0325 ] <anchor 135 -15> @Anchor3;
+  markClass [\U0742 ] <anchor 105 0> @Anchor3;
+  markClass [\U0740 ] <anchor 75 -15> @Anchor4;
+  pos base [\U0621 ] <anchor 30 375> mark @Anchor4
+	<anchor 390 -165> mark @Anchor3
+	<anchor 210 15> mark @Anchor2
+	<anchor 540 705> mark @Anchor1
+	<anchor 135 465> mark @Anchor0;
+  pos base [\U0640 ] <anchor -45 420> mark @Anchor4
+	<anchor 180 -240> mark @Anchor3
+	<anchor 195 -210> mark @Anchor2
+	<anchor 405 435> mark @Anchor1
+	<anchor 195 315> mark @Anchor0;
+  pos base [\U0710 ] <anchor -15 630> mark @Anchor4
+	<anchor 270 -300> mark @Anchor3
+	<anchor 255 -150> mark @Anchor2
+	<anchor 720 675> mark @Anchor1
+	<anchor 315 1170> mark @Anchor0;
+  pos base [\U0712 ] <anchor 15 690> mark @Anchor4
+	<anchor 855 -90> mark @Anchor3
+	<anchor 720 -245> mark @Anchor2
+	<anchor 1170 600> mark @Anchor1
+	<anchor 825 915> mark @Anchor0;
+  pos base [\U0713 ] <anchor 0 780> mark @Anchor4
+	<anchor 480 -195> mark @Anchor3
+	<anchor 750 -495> mark @Anchor2
+	<anchor 1380 30> mark @Anchor1
+	<anchor 1230 480> mark @Anchor0;
+  pos base [\U0714 ] <anchor 0 0> mark @Anchor4
+	<anchor 570 -285> mark @Anchor3
+	<anchor 750 -495> mark @Anchor2
+	<anchor 1350 45> mark @Anchor1
+	<anchor 1170 480> mark @Anchor0;
+  pos base [\U0715 ] <anchor -15 615> mark @Anchor4
+	<anchor 570 -30> mark @Anchor3
+	<anchor 315 -480> mark @Anchor2
+	<anchor 465 465> mark @Anchor1
+	<anchor 345 645> mark @Anchor0;
+  pos base [\U0716 ] <anchor -150 585> mark @Anchor4
+	<anchor 690 -45> mark @Anchor3
+	<anchor 285 -480> mark @Anchor2
+	<anchor 540 420> mark @Anchor1
+	<anchor 345 795> mark @Anchor0;
+  pos base [\U0717 ] <anchor -105 705> mark @Anchor4
+	<anchor 540 -150> mark @Anchor3
+	<anchor 420 -255> mark @Anchor2
+	<anchor 645 585> mark @Anchor1
+	<anchor 480 715> mark @Anchor0;
+  pos base [\U0718 ] <anchor -15 780> mark @Anchor4
+	<anchor 450 -240> mark @Anchor3
+	<anchor 420 -240> mark @Anchor2
+	<anchor 660 615> mark @Anchor1
+	<anchor 435 655> mark @Anchor0;
+  pos base [\U0719 ] <anchor 0 780> mark @Anchor4
+	<anchor 270 -255> mark @Anchor3
+	<anchor 240 -285> mark @Anchor2
+	<anchor 600 705> mark @Anchor1
+	<anchor 300 880> mark @Anchor0;
+  pos base [\U071a ] <anchor 0 750> mark @Anchor4
+	<anchor 645 -240> mark @Anchor3
+	<anchor 660 -240> mark @Anchor2
+	<anchor 915 450> mark @Anchor1
+	<anchor 765 600> mark @Anchor0;
+  pos base [\U071b ] <anchor -75 825> mark @Anchor4
+	<anchor 975 -510> mark @Anchor3
+	<anchor 300 -645> mark @Anchor2
+	<anchor 795 1185> mark @Anchor1
+	<anchor 585 1170> mark @Anchor0;
+  pos base [\U071c ] <anchor 30 660> mark @Anchor4
+	<anchor 1125 -525> mark @Anchor3
+	<anchor 345 -720> mark @Anchor2
+	<anchor 960 960> mark @Anchor1
+	<anchor 660 1095> mark @Anchor0;
+  pos base [\U071d ] <anchor -15 870> mark @Anchor4
+	<anchor 480 -240> mark @Anchor3
+	<anchor 510 -240> mark @Anchor2
+	<anchor 780 390> mark @Anchor1
+	<anchor 480 580> mark @Anchor0;
+  pos base [\U071e ] <anchor -90 915> mark @Anchor4
+	<anchor 1035 -240> mark @Anchor3
+	<anchor 1065 -240> mark @Anchor2
+	<anchor 1320 420> mark @Anchor1
+	<anchor 1200 585> mark @Anchor0;
+  pos base [\U071f ] <anchor -90 765> mark @Anchor4
+	<anchor 630 -120> mark @Anchor3
+	<anchor 645 -255> mark @Anchor2
+	<anchor 810 270> mark @Anchor1
+	<anchor 450 585> mark @Anchor0;
+  pos base [\U0720 ] <anchor 0 1140> mark @Anchor4
+	<anchor 555 240> mark @Anchor3
+	<anchor 795 85> mark @Anchor2
+	<anchor 1215 660> mark @Anchor1
+	<anchor 1230 915> mark @Anchor0;
+  pos base [\U0721 ] <anchor 0 1020> mark @Anchor4
+	<anchor 660 -240> mark @Anchor3
+	<anchor 780 -240> mark @Anchor2
+	<anchor 1035 585> mark @Anchor1
+	<anchor 795 795> mark @Anchor0;
+  pos base [\U0722 ] <anchor -135 795> mark @Anchor4
+	<anchor 270 -405> mark @Anchor3
+	<anchor 345 -420> mark @Anchor2
+	<anchor 600 405> mark @Anchor1
+	<anchor 300 750> mark @Anchor0;
+  pos base [\U0723 ] <anchor -90 885> mark @Anchor4
+	<anchor 1020 -240> mark @Anchor3
+	<anchor 1065 -240> mark @Anchor2
+	<anchor 1380 690> mark @Anchor1
+	<anchor 1050 795> mark @Anchor0;
+  pos base [\U0724 ] <anchor -225 720> mark @Anchor4
+	<anchor 630 -375> mark @Anchor3
+	<anchor 615 -375> mark @Anchor2
+	<anchor 1065 645> mark @Anchor1
+	<anchor 720 810> mark @Anchor0;
+  pos base [\U0725 ] <anchor -180 900> mark @Anchor4
+	<anchor 705 -240> mark @Anchor3
+	<anchor 795 -240> mark @Anchor2
+	<anchor 870 675> mark @Anchor1
+	<anchor 540 780> mark @Anchor0;
+  pos base [\U0726 ] <anchor -150 960> mark @Anchor4
+	<anchor 840 -90> mark @Anchor3
+	<anchor 690 -240> mark @Anchor2
+	<anchor 1020 660> mark @Anchor1
+	<anchor 720 990> mark @Anchor0;
+  pos base [\U0727 ] <anchor 15 1020> mark @Anchor4
+	<anchor 675 -210> mark @Anchor3
+	<anchor 675 -240> mark @Anchor2
+	<anchor 975 840> mark @Anchor1
+	<anchor 0 0> mark @Anchor0;
+  pos base [\U0728 ] <anchor -195 780> mark @Anchor4
+	<anchor 870 -510> mark @Anchor3
+	<anchor -420 -645> mark @Anchor2
+	<anchor 690 300> mark @Anchor1
+	<anchor 405 525> mark @Anchor0;
+  pos base [\U0729 ] <anchor -150 960> mark @Anchor4
+	<anchor 915 -210> mark @Anchor3
+	<anchor 720 -240> mark @Anchor2
+	<anchor 1200 675> mark @Anchor1
+	<anchor 900 885> mark @Anchor0;
+  pos base [\U072a ] <anchor -270 825> mark @Anchor4
+	<anchor 630 -195> mark @Anchor3
+	<anchor 330 -240> mark @Anchor2
+	<anchor 735 330> mark @Anchor1
+	<anchor 345 1050> mark @Anchor0;
+  pos base [\U072b ] <anchor -240 870> mark @Anchor4
+	<anchor 825 -240> mark @Anchor3
+	<anchor 810 -240> mark @Anchor2
+	<anchor 1125 495> mark @Anchor1
+	<anchor 795 675> mark @Anchor0;
+  pos base [\U072c ] <anchor -120 705> mark @Anchor4
+	<anchor 360 -75> mark @Anchor3
+	<anchor 285 -150> mark @Anchor2
+	<anchor 540 795> mark @Anchor1
+	<anchor 330 1230> mark @Anchor0;
+  pos base [\U25cc ] <anchor 330 945> mark @Anchor4
+	<anchor 615 -240> mark @Anchor3
+	<anchor 600 -240> mark @Anchor2
+	<anchor 930 915> mark @Anchor1
+	<anchor 2190 2835> mark @Anchor0;
+  pos base [\U0710Medi2 ] <anchor -120 660> mark @Anchor4
+	<anchor 300 -210> mark @Anchor3
+	<anchor 240 -255> mark @Anchor2
+	<anchor 690 1065> mark @Anchor1
+	<anchor 240 1170> mark @Anchor0;
+  pos base [\U0710Fina1 ] <anchor -135 660> mark @Anchor4
+	<anchor 285 -195> mark @Anchor3
+	<anchor 240 -255> mark @Anchor2
+	<anchor 705 930> mark @Anchor1
+	<anchor 240 1185> mark @Anchor0;
+  pos base [\U0710Fina2 ] <anchor -120 615> mark @Anchor4
+	<anchor 180 -285> mark @Anchor3
+	<anchor 165 -315> mark @Anchor2
+	<anchor 690 1065> mark @Anchor1
+	<anchor 255 1180> mark @Anchor0;
+  pos base [\U0710Fina3 ] <anchor -90 625> mark @Anchor4
+	<anchor 210 -255> mark @Anchor3
+	<anchor 165 -315> mark @Anchor2
+	<anchor 705 960> mark @Anchor1
+	<anchor 270 1245> mark @Anchor0;
+  pos base [\U0712Init ] <anchor -225 645> mark @Anchor4
+	<anchor 360 -105> mark @Anchor3
+	<anchor 330 -225> mark @Anchor2
+	<anchor 690 615> mark @Anchor1
+	<anchor 465 915> mark @Anchor0;
+  pos base [\U0712Medi ] <anchor -255 645> mark @Anchor4
+	<anchor 360 -120> mark @Anchor3
+	<anchor 375 -225> mark @Anchor2
+	<anchor 645 495> mark @Anchor1
+	<anchor 450 915> mark @Anchor0;
+  pos base [\U0712Fina ] <anchor -15 735> mark @Anchor4
+	<anchor 705 -75> mark @Anchor3
+	<anchor 720 -245> mark @Anchor2
+	<anchor 1170 570> mark @Anchor1
+	<anchor 840 855> mark @Anchor0;
+  pos base [\U0713Init ] <anchor -195 840> mark @Anchor4
+	<anchor 405 -315> mark @Anchor3
+	<anchor 585 -480> mark @Anchor2
+	<anchor 1200 30> mark @Anchor1
+	<anchor 1020 480> mark @Anchor0;
+  pos base [\U0713Medi ] <anchor -105 735> mark @Anchor4
+	<anchor 435 -345> mark @Anchor3
+	<anchor 510 -450> mark @Anchor2
+	<anchor 780 300> mark @Anchor1
+	<anchor 915 480> mark @Anchor0;
+  pos base [\U0713Fina ] <anchor 15 795> mark @Anchor4
+	<anchor 540 -270> mark @Anchor3
+	<anchor 645 -420> mark @Anchor2
+	<anchor 1005 285> mark @Anchor1
+	<anchor 1170 480> mark @Anchor0;
+  pos base [\U0714Init ] <anchor -225 750> mark @Anchor4
+	<anchor 465 -360> mark @Anchor3
+	<anchor 558 -480> mark @Anchor2
+	<anchor 1170 45> mark @Anchor1
+	<anchor 1020 480> mark @Anchor0;
+  pos base [\U0714Medi ] <anchor -180 525> mark @Anchor4
+	<anchor 450 -345> mark @Anchor3
+	<anchor 510 -450> mark @Anchor2
+	<anchor 810 270> mark @Anchor1
+	<anchor 1020 480> mark @Anchor0;
+  pos base [\U0714Fina ] <anchor -45 690> mark @Anchor4
+	<anchor 555 -285> mark @Anchor3
+	<anchor 645 -420> mark @Anchor2
+	<anchor 960 300> mark @Anchor1
+	<anchor 1170 480> mark @Anchor0;
+  pos base [\U0715Fina ] <anchor -75 465> mark @Anchor4
+	<anchor 510 -60> mark @Anchor3
+	<anchor 255 -570> mark @Anchor2
+	<anchor 450 270> mark @Anchor1
+	<anchor 345 495> mark @Anchor0;
+  pos base [\U0716Fina ] <anchor -135 615> mark @Anchor4
+	<anchor 630 -90> mark @Anchor3
+	<anchor 330 -525> mark @Anchor2
+	<anchor 570 300> mark @Anchor1
+	<anchor 315 675> mark @Anchor0;
+  pos base [\U0717Fina ] <anchor -75 585> mark @Anchor4
+	<anchor 450 -345> mark @Anchor3
+	<anchor 435 -360> mark @Anchor2
+	<anchor 630 540> mark @Anchor1
+	<anchor 510 720> mark @Anchor0;
+  pos base [\U0718Fina ] <anchor -45 660> mark @Anchor4
+	<anchor 450 -240> mark @Anchor3
+	<anchor 435 -240> mark @Anchor2
+	<anchor 705 600> mark @Anchor1
+	<anchor 435 660> mark @Anchor0;
+  pos base [\U0719Fina ] <anchor 0 690> mark @Anchor4
+	<anchor 330 -195> mark @Anchor3
+	<anchor 315 -240> mark @Anchor2
+	<anchor 645 735> mark @Anchor1
+	<anchor 315 970> mark @Anchor0;
+  pos base [\U071aInit ] <anchor -90 720> mark @Anchor4
+	<anchor 315 -240> mark @Anchor3
+	<anchor 435 -240> mark @Anchor2
+	<anchor 660 465> mark @Anchor1
+	<anchor 435 600> mark @Anchor0;
+  pos base [\U071aMedi ] <anchor -150 765> mark @Anchor4
+	<anchor 510 -240> mark @Anchor3
+	<anchor 525 -240> mark @Anchor2
+	<anchor 750 480> mark @Anchor1
+	<anchor 495 615> mark @Anchor0;
+  pos base [\U071aFina ] <anchor -75 750> mark @Anchor4
+	<anchor 690 -240> mark @Anchor3
+	<anchor 690 -240> mark @Anchor2
+	<anchor 1110 495> mark @Anchor1
+	<anchor 660 600> mark @Anchor0;
+  pos base [\U071bInit ] <anchor -60 900> mark @Anchor4
+	<anchor 960 -495> mark @Anchor3
+	<anchor 105 -615> mark @Anchor2
+	<anchor 1050 585> mark @Anchor1
+	<anchor 465 1125> mark @Anchor0;
+  pos base [\U071bMedi ] <anchor -105 705> mark @Anchor4
+	<anchor 810 -510> mark @Anchor3
+	<anchor 105 -600> mark @Anchor2
+	<anchor 915 360> mark @Anchor1
+	<anchor 420 990> mark @Anchor0;
+  pos base [\U071bFina ] <anchor 15 690> mark @Anchor4
+	<anchor 1140 -525> mark @Anchor3
+	<anchor 405 -675> mark @Anchor2
+	<anchor 1110 375> mark @Anchor1
+	<anchor 540 975> mark @Anchor0;
+  pos base [\U071cInit ] <anchor 15 630> mark @Anchor4
+	<anchor 0 0> mark @Anchor3
+	<anchor 120 -615> mark @Anchor2
+	<anchor 1050 585> mark @Anchor1
+	<anchor 525 1170> mark @Anchor0;
+  pos base [\U071cMedi ] <anchor 15 465> mark @Anchor4
+	<anchor 855 -525> mark @Anchor3
+	<anchor 120 -615> mark @Anchor2
+	<anchor 945 360> mark @Anchor1
+	<anchor 375 945> mark @Anchor0;
+  pos base [\U071cFina ] <anchor 165 645> mark @Anchor4
+	<anchor 1125 -525> mark @Anchor3
+	<anchor 390 -675> mark @Anchor2
+	<anchor 1140 330> mark @Anchor1
+	<anchor 570 960> mark @Anchor0;
+  pos base [\U071dInit ] <anchor -60 795> mark @Anchor4
+	<anchor 180 -240> mark @Anchor3
+	<anchor 165 -240> mark @Anchor2
+	<anchor 450 420> mark @Anchor1
+	<anchor 165 540> mark @Anchor0;
+  pos base [\U071dMedi ] <anchor -105 885> mark @Anchor4
+	<anchor 420 -240> mark @Anchor3
+	<anchor 405 -240> mark @Anchor2
+	<anchor 645 405> mark @Anchor1
+	<anchor 210 525> mark @Anchor0;
+  pos base [\U071dFina ] <anchor -15 960> mark @Anchor4
+	<anchor 675 -240> mark @Anchor3
+	<anchor 660 -240> mark @Anchor2
+	<anchor 900 405> mark @Anchor1
+	<anchor 660 585> mark @Anchor0;
+  pos base [\U071eFina ] <anchor -15 915> mark @Anchor4
+	<anchor 1230 -225> mark @Anchor3
+	<anchor 1215 -240> mark @Anchor2
+	<anchor 1395 405> mark @Anchor1
+	<anchor 1170 630> mark @Anchor0;
+  pos base [\U071fInit ] <anchor -75 945> mark @Anchor4
+	<anchor 435 -45> mark @Anchor3
+	<anchor 180 -315> mark @Anchor2
+	<anchor 555 585> mark @Anchor1
+	<anchor 375 855> mark @Anchor0;
+  pos base [\U071fMedi ] <anchor -210 750> mark @Anchor4
+	<anchor 435 -135> mark @Anchor3
+	<anchor 375 -240> mark @Anchor2
+	<anchor 630 555> mark @Anchor1
+	<anchor 390 855> mark @Anchor0;
+  pos base [\U071fFina ] <anchor 15 720> mark @Anchor4
+	<anchor 795 -75> mark @Anchor3
+	<anchor 135 -135> mark @Anchor2
+	<anchor 825 270> mark @Anchor1
+	<anchor 525 555> mark @Anchor0;
+  pos base [\U0720Init ] <anchor -330 900> mark @Anchor4
+	<anchor 375 -240> mark @Anchor3
+	<anchor 375 -240> mark @Anchor2
+	<anchor 630 645> mark @Anchor1
+	<anchor 585 915> mark @Anchor0;
+  pos base [\U0720Medi ] <anchor 0 0> mark @Anchor4
+	<anchor 465 -225> mark @Anchor3
+	<anchor 450 -240> mark @Anchor2
+	<anchor 645 630> mark @Anchor1
+	<anchor 570 915> mark @Anchor0;
+  pos base [\U0720Fina ] <anchor 15 1200> mark @Anchor4
+	<anchor 510 270> mark @Anchor3
+	<anchor 705 150> mark @Anchor2
+	<anchor 1200 705> mark @Anchor1
+	<anchor 1140 1005> mark @Anchor0;
+  pos base [\U0721Init ] <anchor -165 900> mark @Anchor4
+	<anchor 585 -240> mark @Anchor3
+	<anchor 585 -120> mark @Anchor2
+	<anchor 990 570> mark @Anchor1
+	<anchor 675 870> mark @Anchor0;
+  pos base [\U0721Medi ] <anchor -210 900> mark @Anchor4
+	<anchor 600 -240> mark @Anchor3
+	<anchor 600 -240> mark @Anchor2
+	<anchor 1035 555> mark @Anchor1
+	<anchor 360 810> mark @Anchor0;
+  pos base [\U0721Fina ] <anchor -165 915> mark @Anchor4
+	<anchor 630 -210> mark @Anchor3
+	<anchor 690 -240> mark @Anchor2
+	<anchor 945 585> mark @Anchor1
+	<anchor 690 825> mark @Anchor0;
+  pos base [\U0722Init ] <anchor -330 825> mark @Anchor4
+	<anchor 120 -240> mark @Anchor3
+	<anchor 195 -240> mark @Anchor2
+	<anchor 615 570> mark @Anchor1
+	<anchor 225 735> mark @Anchor0;
+  pos base [\U0722Medi ] <anchor -255 615> mark @Anchor4
+	<anchor 195 -240> mark @Anchor3
+	<anchor 225 -240> mark @Anchor2
+	<anchor 600 420> mark @Anchor1
+	<anchor 135 810> mark @Anchor0;
+  pos base [\U0722Fina ] <anchor 0 765> mark @Anchor4
+	<anchor 330 -465> mark @Anchor3
+	<anchor 435 -510> mark @Anchor2
+	<anchor 480 315> mark @Anchor1
+	<anchor 285 510> mark @Anchor0;
+  pos base [\U0723Init ] <anchor -180 900> mark @Anchor4
+	<anchor 750 -240> mark @Anchor3
+	<anchor 780 -240> mark @Anchor2
+	<anchor 1140 675> mark @Anchor1
+	<anchor 600 780> mark @Anchor0;
+  pos base [\U0723Medi ] <anchor -195 600> mark @Anchor4
+	<anchor 780 -225> mark @Anchor3
+	<anchor 810 -240> mark @Anchor2
+	<anchor 1185 645> mark @Anchor1
+	<anchor 615 765> mark @Anchor0;
+  pos base [\U0723Fina ] <anchor -150 780> mark @Anchor4
+	<anchor 1065 -240> mark @Anchor3
+	<anchor 1065 -240> mark @Anchor2
+	<anchor 1485 645> mark @Anchor1
+	<anchor 1050 795> mark @Anchor0;
+  pos base [\U0724Init ] <anchor -225 810> mark @Anchor4
+	<anchor 750 -240> mark @Anchor3
+	<anchor 810 -240> mark @Anchor2
+	<anchor 1170 660> mark @Anchor1
+	<anchor 630 765> mark @Anchor0;
+  pos base [\U0724Medi ] <anchor -270 885> mark @Anchor4
+	<anchor 795 -240> mark @Anchor3
+	<anchor 810 -240> mark @Anchor2
+	<anchor 1170 630> mark @Anchor1
+	<anchor 615 780> mark @Anchor0;
+  pos base [\U0724Fina ] <anchor -135 915> mark @Anchor4
+	<anchor 765 -360> mark @Anchor3
+	<anchor 720 -375> mark @Anchor2
+	<anchor 1095 630> mark @Anchor1
+	<anchor 750 810> mark @Anchor0;
+  pos base [\U0725Init ] <anchor -270 915> mark @Anchor4
+	<anchor 0 0> mark @Anchor3
+	<anchor 300 -240> mark @Anchor2
+	<anchor 720 465> mark @Anchor1
+	<anchor 660 750> mark @Anchor0;
+  pos base [\U0725Medi ] <anchor -345 840> mark @Anchor4
+	<anchor 0 0> mark @Anchor3
+	<anchor 375 -240> mark @Anchor2
+	<anchor 765 435> mark @Anchor1
+	<anchor 210 855> mark @Anchor0;
+  pos base [\U0725Fina ] <anchor -150 915> mark @Anchor4
+	<anchor 0 0> mark @Anchor3
+	<anchor 720 -240> mark @Anchor2
+	<anchor 930 615> mark @Anchor1
+	<anchor 540 780> mark @Anchor0;
+  pos base [\U0726Init ] <anchor -285 960> mark @Anchor4
+	<anchor 435 -150> mark @Anchor3
+	<anchor 435 -240> mark @Anchor2
+	<anchor 840 675> mark @Anchor1
+	<anchor 435 975> mark @Anchor0;
+  pos base [\U0726Medi ] <anchor -285 855> mark @Anchor4
+	<anchor 540 -135> mark @Anchor3
+	<anchor 525 -240> mark @Anchor2
+	<anchor 735 690> mark @Anchor1
+	<anchor 417 975> mark @Anchor0;
+  pos base [\U0726Fina ] <anchor 0 990> mark @Anchor4
+	<anchor 750 -135> mark @Anchor3
+	<anchor 765 -240> mark @Anchor2
+	<anchor 975 690> mark @Anchor1
+	<anchor 720 990> mark @Anchor0;
+  pos base [\U0727Init ] <anchor 285 1140> mark @Anchor4
+	<anchor 660 -210> mark @Anchor3
+	<anchor 660 -240> mark @Anchor2
+	<anchor 1050 840> mark @Anchor1
+	<anchor 705 990> mark @Anchor0;
+  pos base [\U0727Medi ] <anchor 270 1275> mark @Anchor4
+	<anchor 675 -225> mark @Anchor3
+	<anchor 675 -240> mark @Anchor2
+	<anchor 1050 840> mark @Anchor1
+	<anchor 720 975> mark @Anchor0;
+  pos base [\U0727Fina ] <anchor 0 0> mark @Anchor4
+	<anchor 675 -240> mark @Anchor3
+	<anchor 690 -240> mark @Anchor2
+	<anchor 1020 795> mark @Anchor1
+	<anchor 615 1005> mark @Anchor0;
+  pos base [\U0728Fina ] <anchor -270 570> mark @Anchor4
+	<anchor 900 -510> mark @Anchor3
+	<anchor -15 -855> mark @Anchor2
+	<anchor 660 330> mark @Anchor1
+	<anchor 315 420> mark @Anchor0;
+  pos base [\U0729Init ] <anchor -225 990> mark @Anchor4
+	<anchor 465 -240> mark @Anchor3
+	<anchor 435 -240> mark @Anchor2
+	<anchor 720 705> mark @Anchor1
+	<anchor 345 855> mark @Anchor0;
+  pos base [\U0729Medi ] <anchor -270 915> mark @Anchor4
+	<anchor 525 -240> mark @Anchor3
+	<anchor 540 -240> mark @Anchor2
+	<anchor 855 615> mark @Anchor1
+	<anchor 375 840> mark @Anchor0;
+  pos base [\U0729Fina ] <anchor -240 960> mark @Anchor4
+	<anchor 900 -210> mark @Anchor3
+	<anchor 930 -240> mark @Anchor2
+	<anchor 1095 765> mark @Anchor1
+	<anchor 900 885> mark @Anchor0;
+  pos base [\U072aFina ] <anchor -225 795> mark @Anchor4
+	<anchor 660 -240> mark @Anchor3
+	<anchor 345 -225> mark @Anchor2
+	<anchor 705 255> mark @Anchor1
+	<anchor 375 915> mark @Anchor0;
+  pos base [\U072bInit ] <anchor -240 795> mark @Anchor4
+	<anchor 570 -240> mark @Anchor3
+	<anchor 570 -240> mark @Anchor2
+	<anchor 870 450> mark @Anchor1
+	<anchor 360 720> mark @Anchor0;
+  pos base [\U072bMedi ] <anchor 0 0> mark @Anchor4
+	<anchor 570 -225> mark @Anchor3
+	<anchor 585 -240> mark @Anchor2
+	<anchor 870 480> mark @Anchor1
+	<anchor 375 735> mark @Anchor0;
+  pos base [\U072bFina ] <anchor -300 825> mark @Anchor4
+	<anchor 810 -240> mark @Anchor3
+	<anchor 825 -240> mark @Anchor2
+	<anchor 1095 585> mark @Anchor1
+	<anchor 795 675> mark @Anchor0;
+  pos base [\U072cFina ] <anchor 0 540> mark @Anchor4
+	<anchor 345 -120> mark @Anchor3
+	<anchor 360 -330> mark @Anchor2
+	<anchor 795 615> mark @Anchor1
+	<anchor 450 1095> mark @Anchor0;
+} markMarkPositioninginSyriaclookup0;
+
+lookup markMarkPositioninginSyriaclookup1 {
+  lookupflag RightToLeft;
+  markClass [\U0656 ] <anchor 225 30> @Anchor5;
+  markClass [\U064b \U0654 ] <anchor 195 15> @Anchor5;
+  markClass [\U064c ] <anchor 210 15> @Anchor5;
+  markClass [\U064e ] <anchor 210 0> @Anchor5;
+  markClass [\U064f ] <anchor 255 0> @Anchor5;
+  pos base [\U0710 ] <anchor 345 1140> mark @Anchor5;
+  pos base [\U0710Medi2 ] <anchor 270 1170> mark @Anchor5;
+} markMarkPositioninginSyriaclookup1;
+
+lookup markMarkPositioninginSyriaclookup2 {
+  lookupflag RightToLeft;
+    pos \U073c \U073f  <-70 0 0 0>;
+} markMarkPositioninginSyriaclookup2;
+
+lookup markMarkPositioninginSyriaclookup3 {
+  lookupflag RightToLeft;
+  markClass [\U0656 ] <anchor 300 30> @Anchor6;
+  markClass [\U0303 \U064f ] <anchor 255 -15> @Anchor6;
+  markClass [\U0304 ] <anchor 300 -15> @Anchor6;
+  markClass [\U0307 ] <anchor 135 -15> @Anchor6;
+  markClass [\U0308 ] <anchor 315 -15> @Anchor6;
+  markClass [\U064b ] <anchor 180 0> @Anchor6;
+  markClass [\U064c ] <anchor 240 0> @Anchor6;
+  markClass [\U064e \U0654 \U0735 ] <anchor 195 0> @Anchor6;
+  markClass [\U0651 ] <anchor 225 -15> @Anchor6;
+  markClass [\U0652 ] <anchor 150 0> @Anchor6;
+  markClass [\U0653 ] <anchor 270 -15> @Anchor6;
+  markClass [\U0711 ] <anchor 60 -15> @Anchor6;
+  markClass [\U0730 \U0745 \U0749 ] <anchor 345 15> @Anchor6;
+  markClass [\U0733 \U0736 ] <anchor 240 -15> @Anchor6;
+  markClass [\U073a ] <anchor 315 0> @Anchor6;
+  markClass [\U073d ] <anchor 360 -15> @Anchor6;
+  markClass [\U073f ] <anchor 75 -15> @Anchor6;
+  markClass [\U0743 ] <anchor 135 0> @Anchor6;
+  markClass [\U0747 ] <anchor 270 30> @Anchor6;
+  markClass [\U074a ] <anchor 210 0> @Anchor6;
+  markClass [\U030a ] <anchor 210 -15> @Anchor7;
+  markClass [\U0741 ] <anchor 135 -15> @Anchor7;
+  markClass [\U0331 ] <anchor 300 15> @Anchor8;
+  markClass [\U0323 ] <anchor 135 15> @Anchor8;
+  markClass [\U0324 ] <anchor 315 15> @Anchor8;
+  markClass [\U032d ] <anchor 300 315> @Anchor8;
+  markClass [\U032e ] <anchor 270 -15> @Anchor8;
+  markClass [\U0330 ] <anchor 330 15> @Anchor8;
+  markClass [\U064d \U0739 ] <anchor 195 15> @Anchor8;
+  markClass [\U0650 ] <anchor 180 15> @Anchor8;
+  markClass [\U0655 \U0748 ] <anchor 240 0> @Anchor8;
+  markClass [\U0731 ] <anchor 315 -90> @Anchor8;
+  markClass [\U0734 ] <anchor 225 0> @Anchor8;
+  markClass [\U0737 \U0738 ] <anchor 210 0> @Anchor8;
+  markClass [\U073b ] <anchor 195 -15> @Anchor8;
+  markClass [\U073c ] <anchor 90 15> @Anchor8;
+  markClass [\U073e ] <anchor 180 0> @Anchor8;
+  markClass [\U0744 ] <anchor 150 15> @Anchor8;
+  markClass [\U0746 ] <anchor 330 0> @Anchor8;
+  markClass [\U0325 ] <anchor 225 15> @Anchor9;
+  markClass [\U0742 ] <anchor 150 15> @Anchor9;
+  markClass [\U0740 ] <anchor 135 0> @Anchor10;
+  pos ligature \U0720U0710Isol <anchor 1050 780> mark @Anchor10 <anchor 555 -240> mark @Anchor9 <anchor 765 -195> mark @Anchor8 <anchor 975 915> mark @Anchor7 <anchor 660 1140> mark @Anchor6 
+    ligComponent
+      <anchor -180 675> mark @Anchor10 <anchor -120 -240> mark @Anchor9 <anchor 360 -240> mark @Anchor8 <anchor 195 1155> mark @Anchor7 <anchor 195 1080> mark @Anchor6 ;
+  pos ligature \U0720U0710Fina <anchor 1020 840> mark @Anchor10 <anchor 735 -285> mark @Anchor9 <anchor 780 -360> mark @Anchor8 <anchor 975 930> mark @Anchor7 <anchor 930 1155> mark @Anchor6 
+    ligComponent
+      <anchor -180 645> mark @Anchor10 <anchor -75 -255> mark @Anchor9 <anchor 315 -285> mark @Anchor8 <anchor 150 1140> mark @Anchor7 <anchor 285 1140> mark @Anchor6 ;
+  pos ligature \U072aU0308Isol <anchor -330 1050> mark @Anchor10 <anchor 630 -120> mark @Anchor9 <anchor 345 -360> mark @Anchor8 <anchor 750 855> mark @Anchor7 <anchor 360 990> mark @Anchor6 
+    ligComponent
+      <anchor -330 1050> mark @Anchor10 <anchor 630 -120> mark @Anchor9 <anchor 345 -360> mark @Anchor8 <anchor 750 855> mark @Anchor7 <anchor 360 990> mark @Anchor6 ;
+  pos ligature \U072aU0308Fina <anchor -285 1005> mark @Anchor10 <anchor 570 -150> mark @Anchor9 <anchor 330 -375> mark @Anchor8 <anchor 735 645> mark @Anchor7 <anchor 405 885> mark @Anchor6 
+    ligComponent
+      <anchor -285 1005> mark @Anchor10 <anchor 570 -150> mark @Anchor9 <anchor 330 -375> mark @Anchor8 <anchor 735 645> mark @Anchor7 <anchor 405 885> mark @Anchor6 ;
+} markMarkPositioninginSyriaclookup3;
+
+lookup markMarkPositioninginSyriaclookup4 {
+  lookupflag RightToLeft;
+  markClass [\U0656 ] <anchor 270 45> @Anchor11;
+  markClass [\U0303 ] <anchor 310 -10> @Anchor11;
+  markClass [\U0304 ] <anchor 300 10> @Anchor11;
+  markClass [\U0307 ] <anchor 135 -5> @Anchor11;
+  markClass [\U0308 ] <anchor 315 0> @Anchor11;
+  markClass [\U064b ] <anchor 200 15> @Anchor11;
+  markClass [\U064c ] <anchor 295 0> @Anchor11;
+  markClass [\U064e ] <anchor 170 0> @Anchor11;
+  markClass [\U064f ] <anchor 245 0> @Anchor11;
+  markClass [\U0651 ] <anchor 240 0> @Anchor11;
+  markClass [\U0652 ] <anchor 140 0> @Anchor11;
+  markClass [\U0653 \U0733 ] <anchor 260 -10> @Anchor11;
+  markClass [\U0654 ] <anchor 245 15> @Anchor11;
+  markClass [\U0711 \U073f ] <anchor 70 0> @Anchor11;
+  markClass [\U0730 ] <anchor 350 40> @Anchor11;
+  markClass [\U0735 ] <anchor 200 0> @Anchor11;
+  markClass [\U0736 ] <anchor 265 5> @Anchor11;
+  markClass [\U073a ] <anchor 325 5> @Anchor11;
+  markClass [\U073d ] <anchor 270 -5> @Anchor11;
+  markClass [\U0743 ] <anchor 130 -10> @Anchor11;
+  markClass [\U0745 ] <anchor 330 -10> @Anchor11;
+  markClass [\U0747 ] <anchor 230 0> @Anchor11;
+  markClass [\U0749 ] <anchor 360 -60> @Anchor11;
+  markClass [\U074a ] <anchor 215 -5> @Anchor11;
+  markClass [\U030a ] <anchor 230 5> @Anchor12;
+  markClass [\U0741 ] <anchor 145 -15> @Anchor12;
+  markClass [\U0331 ] <anchor 295 15> @Anchor13;
+  markClass [\U0323 \U0744 ] <anchor 150 15> @Anchor13;
+  markClass [\U0324 ] <anchor 325 10> @Anchor13;
+  markClass [\U032d ] <anchor 295 315> @Anchor13;
+  markClass [\U032e ] <anchor 280 -5> @Anchor13;
+  markClass [\U0330 ] <anchor 370 0> @Anchor13;
+  markClass [\U064d ] <anchor 160 0> @Anchor13;
+  markClass [\U0650 ] <anchor 170 0> @Anchor13;
+  markClass [\U0655 ] <anchor 170 10> @Anchor13;
+  markClass [\U0731 ] <anchor 310 -30> @Anchor13;
+  markClass [\U0734 ] <anchor 190 10> @Anchor13;
+  markClass [\U0737 ] <anchor 260 30> @Anchor13;
+  markClass [\U0738 \U0739 \U073e ] <anchor 220 10> @Anchor13;
+  markClass [\U073b ] <anchor 270 -10> @Anchor13;
+  markClass [\U073c ] <anchor 80 10> @Anchor13;
+  markClass [\U0746 ] <anchor 335 0> @Anchor13;
+  markClass [\U0748 ] <anchor 235 10> @Anchor13;
+  markClass [\U0325 ] <anchor 215 10> @Anchor14;
+  markClass [\U0742 ] <anchor 145 0> @Anchor14;
+  markClass [\U0740 ] <anchor 150 -10> @Anchor15;
+  pos ligature \U0728U0722Isol <anchor 1230 345> mark @Anchor15 <anchor 1410 -495> mark @Anchor14 <anchor 1440 -360> mark @Anchor13 <anchor 855 420> mark @Anchor12 <anchor 915 555> mark @Anchor11 
+    ligComponent
+      <anchor 0 0> mark @Anchor15 <anchor -180 -495> mark @Anchor14 <anchor -390 -285> mark @Anchor13 <anchor 240 450> mark @Anchor12 <anchor 210 555> mark @Anchor11 ;
+  pos ligature \U0728U0722Fina <anchor 660 765> mark @Anchor15 <anchor 1350 -195> mark @Anchor14 <anchor 1515 -330> mark @Anchor13 <anchor 975 420> mark @Anchor12 <anchor 970 550> mark @Anchor11 
+    ligComponent
+      <anchor 0 0> mark @Anchor15 <anchor -150 -480> mark @Anchor14 <anchor -270 -570> mark @Anchor13 <anchor 225 420> mark @Anchor12 <anchor 215 550> mark @Anchor11 ;
+  pos ligature \U0710U0720Isol <anchor 585 1155> mark @Anchor15 <anchor 1650 -240> mark @Anchor14 <anchor 1680 -240> mark @Anchor13 <anchor 1410 630> mark @Anchor12 <anchor 225 1080> mark @Anchor11 
+    ligComponent
+      <anchor -390 390> mark @Anchor15 <anchor 960 -240> mark @Anchor14 <anchor 855 -240> mark @Anchor13 <anchor 240 945> mark @Anchor12 <anchor 1365 885> mark @Anchor11 ;
+  pos ligature \U0710U0720Fina <anchor 600 1230> mark @Anchor15 <anchor 1650 -225> mark @Anchor14 <anchor 1650 -240> mark @Anchor13 <anchor 1350 690> mark @Anchor12 <anchor 165 1095> mark @Anchor11 
+    ligComponent
+      <anchor 0 0> mark @Anchor15 <anchor 0 0> mark @Anchor14 <anchor 540 -240> mark @Anchor13 <anchor 180 885> mark @Anchor12 <anchor 1350 915> mark @Anchor11 ;
+  pos ligature \U0710U0720Init <anchor 465 1155> mark @Anchor15 <anchor 1515 -300> mark @Anchor14 <anchor 1545 -285> mark @Anchor13 <anchor 1290 525> mark @Anchor12 <anchor 1305 855> mark @Anchor11 
+    ligComponent
+      <anchor 0 0> mark @Anchor15 <anchor 750 -300> mark @Anchor14 <anchor 720 -255> mark @Anchor13 <anchor 255 855> mark @Anchor12 <anchor 165 1230> mark @Anchor11 ;
+  pos ligature \U0710U0720Medi <anchor 420 1155> mark @Anchor15 <anchor 1395 -240> mark @Anchor14 <anchor 1455 -240> mark @Anchor13 <anchor 1230 600> mark @Anchor12 <anchor 45 1215> mark @Anchor11 
+    ligComponent
+      <anchor -135 555> mark @Anchor15 <anchor 750 -240> mark @Anchor14 <anchor 720 -255> mark @Anchor13 <anchor 255 870> mark @Anchor12 <anchor 1335 795> mark @Anchor11 ;
+  pos ligature \U0713U0720Isol <anchor 780 1095> mark @Anchor15 <anchor 945 -285> mark @Anchor14 <anchor 2460 -375> mark @Anchor13 <anchor 1785 105> mark @Anchor12 <anchor 1485 735> mark @Anchor11 
+    ligComponent
+      <anchor -315 435> mark @Anchor15 <anchor 285 -285> mark @Anchor14 <anchor 825 -375> mark @Anchor13 <anchor 210 1035> mark @Anchor12 <anchor 195 1110> mark @Anchor11 ;
+  pos ligature \U0713U0720Fina <anchor 975 705> mark @Anchor15 <anchor 1140 -390> mark @Anchor14 <anchor 2325 -465> mark @Anchor13 <anchor 240 1005> mark @Anchor12 <anchor 1500 765> mark @Anchor11 
+    ligComponent
+      <anchor -330 900> mark @Anchor15 <anchor 525 -165> mark @Anchor14 <anchor 750 -315> mark @Anchor13 <anchor 1485 450> mark @Anchor12 <anchor 225 1185> mark @Anchor11 ;
+  pos ligature \U0713U0720Init <anchor 600 690> mark @Anchor15 <anchor 930 -300> mark @Anchor14 <anchor 2070 -390> mark @Anchor13 <anchor 1380 165> mark @Anchor12 <anchor 810 660> mark @Anchor11 
+    ligComponent
+      <anchor -315 540> mark @Anchor15 <anchor 30 -150> mark @Anchor14 <anchor 345 -255> mark @Anchor13 <anchor 30 1095> mark @Anchor12 <anchor 345 1170> mark @Anchor11 ;
+  pos ligature \U0713U0720Medi <anchor 585 690> mark @Anchor15 <anchor 645 -255> mark @Anchor14 <anchor 2070 -345> mark @Anchor13 <anchor 1230 330> mark @Anchor12 <anchor 1050 735> mark @Anchor11 
+    ligComponent
+      <anchor -255 435> mark @Anchor15 <anchor 90 -195> mark @Anchor14 <anchor 300 -270> mark @Anchor13 <anchor 15 1020> mark @Anchor12 <anchor 450 1230> mark @Anchor11 ;
+  pos ligature \U0713U0725Isol <anchor 1035 510> mark @Anchor15 <anchor 975 -270> mark @Anchor14 <anchor 2250 -435> mark @Anchor13 <anchor 1725 150> mark @Anchor12 <anchor 1380 525> mark @Anchor11 
+    ligComponent
+      <anchor 0 180> mark @Anchor15 <anchor 450 -105> mark @Anchor14 <anchor 600 -255> mark @Anchor13 <anchor 360 675> mark @Anchor12 <anchor 435 750> mark @Anchor11 ;
+  pos ligature \U0713U0725Fina <anchor 1020 510> mark @Anchor15 <anchor 960 -285> mark @Anchor14 <anchor 2400 -360> mark @Anchor13 <anchor 1605 345> mark @Anchor12 <anchor 1335 540> mark @Anchor11 
+    ligComponent
+      <anchor 15 195> mark @Anchor15 <anchor 405 -60> mark @Anchor14 <anchor 555 -255> mark @Anchor13 <anchor 360 690> mark @Anchor12 <anchor 435 750> mark @Anchor11 ;
+  pos ligature \U0713U0725Init <anchor 720 510> mark @Anchor15 <anchor 585 -285> mark @Anchor14 <anchor 2025 -375> mark @Anchor13 <anchor 1425 75> mark @Anchor12 <anchor 840 540> mark @Anchor11 
+    ligComponent
+      <anchor -270 270> mark @Anchor15 <anchor 60 -150> mark @Anchor14 <anchor 330 -270> mark @Anchor13 <anchor 240 720> mark @Anchor12 <anchor 300 765> mark @Anchor11 ;
+  pos ligature \U0713U0725Medi <anchor 750 510> mark @Anchor15 <anchor 600 -285> mark @Anchor14 <anchor 2055 -315> mark @Anchor13 <anchor 1260 300> mark @Anchor12 <anchor 1020 570> mark @Anchor11 
+    ligComponent
+      <anchor -180 390> mark @Anchor15 <anchor 45 -195> mark @Anchor14 <anchor 345 -285> mark @Anchor13 <anchor 480 675> mark @Anchor12 <anchor 300 765> mark @Anchor11 ;
+  pos ligature \U071bU0725Isol <anchor 975 600> mark @Anchor15 <anchor 1905 -420> mark @Anchor14 <anchor 1905 -360> mark @Anchor13 <anchor 1800 840> mark @Anchor12 <anchor 1380 1035> mark @Anchor11 
+    ligComponent
+      <anchor -60 60> mark @Anchor15 <anchor 525 -135> mark @Anchor14 <anchor 390 -195> mark @Anchor13 <anchor 345 645> mark @Anchor12 <anchor 405 735> mark @Anchor11 ;
+  pos ligature \U071bU0725Fina <anchor 885 615> mark @Anchor15 <anchor 1860 -510> mark @Anchor14 <anchor 1860 -390> mark @Anchor13 <anchor 1815 330> mark @Anchor12 <anchor 1335 1035> mark @Anchor11 
+    ligComponent
+      <anchor -75 150> mark @Anchor15 <anchor 420 -210> mark @Anchor14 <anchor 375 -240> mark @Anchor13 <anchor 690 690> mark @Anchor12 <anchor 360 720> mark @Anchor11 ;
+  pos ligature \U071bU0725Init <anchor 675 555> mark @Anchor15 <anchor 1530 -495> mark @Anchor14 <anchor 1605 -270> mark @Anchor13 <anchor 390 705> mark @Anchor12 <anchor 1170 1080> mark @Anchor11 
+    ligComponent
+      <anchor -165 255> mark @Anchor15 <anchor 150 -165> mark @Anchor14 <anchor 105 -285> mark @Anchor13 <anchor 1515 780> mark @Anchor12 <anchor 240 765> mark @Anchor11 ;
+  pos ligature \U071bU0725Medi <anchor 585 555> mark @Anchor15 <anchor 1560 -420> mark @Anchor14 <anchor 1440 -480> mark @Anchor13 <anchor 1500 420> mark @Anchor12 <anchor 1050 1035> mark @Anchor11 
+    ligComponent
+      <anchor -180 240> mark @Anchor15 <anchor 165 -150> mark @Anchor14 <anchor 60 -285> mark @Anchor13 <anchor 375 690> mark @Anchor12 <anchor 225 735> mark @Anchor11 ;
+  pos ligature \U071dU072cIsol <anchor 1020 510> mark @Anchor15 <anchor 1260 -165> mark @Anchor14 <anchor 1245 -195> mark @Anchor13 <anchor 1530 405> mark @Anchor12 <anchor 1350 525> mark @Anchor11 
+    ligComponent
+      <anchor 15 525> mark @Anchor15 <anchor 315 -120> mark @Anchor14 <anchor 330 -255> mark @Anchor13 <anchor 915 645> mark @Anchor12 <anchor 345 1155> mark @Anchor11 ;
+  pos ligature \U071bU072cFina <anchor 1125 495> mark @Anchor15 <anchor 1320 -165> mark @Anchor14 <anchor 1320 -195> mark @Anchor13 <anchor 1590 375> mark @Anchor12 <anchor 1335 525> mark @Anchor11 
+    ligComponent
+      <anchor 15 495> mark @Anchor15 <anchor 315 -120> mark @Anchor14 <anchor 375 -285> mark @Anchor13 <anchor 780 660> mark @Anchor12 <anchor 345 1095> mark @Anchor11 ;
+  pos ligature \U071fU0720Isol <anchor 1260 780> mark @Anchor15 <anchor 1635 -135> mark @Anchor14 <anchor 1695 -195> mark @Anchor13 <anchor 2085 585> mark @Anchor12 <anchor 1590 870> mark @Anchor11 
+    ligComponent
+      <anchor -270 585> mark @Anchor15 <anchor 900 -150> mark @Anchor14 <anchor 855 -210> mark @Anchor13 <anchor 120 1095> mark @Anchor12 <anchor 210 1140> mark @Anchor11 ;
+  pos ligature \U071fU0720Fina <anchor 1215 765> mark @Anchor15 <anchor 1740 -135> mark @Anchor14 <anchor 1755 -210> mark @Anchor13 <anchor 2040 615> mark @Anchor12 <anchor 1620 870> mark @Anchor11 
+    ligComponent
+      <anchor -210 450> mark @Anchor15 <anchor 945 -135> mark @Anchor14 <anchor 930 -180> mark @Anchor13 <anchor 90 1095> mark @Anchor12 <anchor 225 1155> mark @Anchor11 ;
+  pos ligature \U071fU0720Init <anchor 735 780> mark @Anchor15 <anchor 1140 -135> mark @Anchor14 <anchor 1215 -195> mark @Anchor13 <anchor 1575 585> mark @Anchor12 <anchor 1095 885> mark @Anchor11 
+    ligComponent
+      <anchor -345 420> mark @Anchor15 <anchor 330 -150> mark @Anchor14 <anchor 360 -210> mark @Anchor13 <anchor -105 1065> mark @Anchor12 <anchor 330 1170> mark @Anchor11 ;
+  pos ligature \U071fU0720Medi <anchor 720 780> mark @Anchor15 <anchor 1260 -135> mark @Anchor14 <anchor 1170 -195> mark @Anchor13 <anchor 1575 585> mark @Anchor12 <anchor 1095 870> mark @Anchor11 
+    ligComponent
+      <anchor -300 420> mark @Anchor15 <anchor 345 -150> mark @Anchor14 <anchor 360 -210> mark @Anchor13 <anchor 30 1065> mark @Anchor12 <anchor 345 1125> mark @Anchor11 ;
+  pos ligature \U071fU072cIsol <anchor 930 810> mark @Anchor15 <anchor 1125 -135> mark @Anchor14 <anchor 1155 -210> mark @Anchor13 <anchor 1500 645> mark @Anchor12 <anchor 1200 930> mark @Anchor11 
+    ligComponent
+      <anchor 15 540> mark @Anchor15 <anchor 330 -135> mark @Anchor14 <anchor 315 -210> mark @Anchor13 <anchor 840 720> mark @Anchor12 <anchor 345 1140> mark @Anchor11 ;
+  pos ligature \U071fU072cFina <anchor 885 765> mark @Anchor15 <anchor 1245 -135> mark @Anchor14 <anchor 1245 -195> mark @Anchor13 <anchor 1575 600> mark @Anchor12 <anchor 1140 870> mark @Anchor11 
+    ligComponent
+      <anchor 15 510> mark @Anchor15 <anchor 315 -135> mark @Anchor14 <anchor 330 -195> mark @Anchor13 <anchor 810 750> mark @Anchor12 <anchor 315 1140> mark @Anchor11 ;
+  pos ligature \U0720U0020U0710Isol <anchor 720 1125> mark @Anchor15 <anchor 1305 -150> mark @Anchor14 <anchor 795 -270> mark @Anchor13 <anchor 1485 555> mark @Anchor12 <anchor 1065 1245> mark @Anchor11 
+    ligComponent
+      <anchor -75 525> mark @Anchor15 <anchor 690 -165> mark @Anchor14 <anchor 1650 -195> mark @Anchor13 <anchor 390 1095> mark @Anchor12 <anchor 240 1110> mark @Anchor11 ;
+  pos ligature \U0720U0020U0710Fina <anchor 690 1140> mark @Anchor15 <anchor 1470 -120> mark @Anchor14 <anchor 810 -270> mark @Anchor13 <anchor 375 1080> mark @Anchor12 <anchor 1080 1230> mark @Anchor11 
+    ligComponent
+      <anchor -90 540> mark @Anchor15 <anchor 750 -180> mark @Anchor14 <anchor 1695 -180> mark @Anchor13 <anchor 375 1080> mark @Anchor12 <anchor 390 1140> mark @Anchor11 ;
+  pos ligature \U0720U0720Isol <anchor 720 1170> mark @Anchor15 <anchor 1590 -150> mark @Anchor14 <anchor 1845 -225> mark @Anchor13 <anchor 300 1125> mark @Anchor12 <anchor 1215 1170> mark @Anchor11 
+    ligComponent
+      <anchor 0 495> mark @Anchor15 <anchor 945 -165> mark @Anchor14 <anchor 1140 -195> mark @Anchor13 <anchor 1710 645> mark @Anchor12 <anchor 195 1185> mark @Anchor11 ;
+  pos ligature \U0720U0720Fina <anchor 705 1170> mark @Anchor15 <anchor 1560 -165> mark @Anchor14 <anchor 1980 -210> mark @Anchor13 <anchor 1620 705> mark @Anchor12 <anchor 1110 1320> mark @Anchor11 
+    ligComponent
+      <anchor -15 465> mark @Anchor15 <anchor 1035 -180> mark @Anchor14 <anchor 1140 -195> mark @Anchor13 <anchor 285 1140> mark @Anchor12 <anchor 45 1410> mark @Anchor11 ;
+  pos ligature \U0720U0720Init <anchor 420 1155> mark @Anchor15 <anchor 1305 -150> mark @Anchor14 <anchor 1515 -210> mark @Anchor13 <anchor 300 1140> mark @Anchor12 <anchor 990 1185> mark @Anchor11 
+    ligComponent
+      <anchor -180 555> mark @Anchor15 <anchor 420 -180> mark @Anchor14 <anchor 720 -210> mark @Anchor13 <anchor 1380 615> mark @Anchor12 <anchor -15 1140> mark @Anchor11 ;
+  pos ligature \U0720U0720Medi <anchor 390 1125> mark @Anchor15 <anchor 1260 -150> mark @Anchor14 <anchor 0 0> mark @Anchor13 <anchor 1365 660> mark @Anchor12 <anchor 900 1215> mark @Anchor11 
+    ligComponent
+      <anchor -195 570> mark @Anchor15 <anchor 465 -150> mark @Anchor14 <anchor 0 0> mark @Anchor13 <anchor 195 1140> mark @Anchor12 <anchor 105 1200> mark @Anchor11 ;
+  pos ligature \U0722U0710Isol <anchor 615 705> mark @Anchor15 <anchor 660 -150> mark @Anchor14 <anchor 960 -105> mark @Anchor13 <anchor 195 1305> mark @Anchor12 <anchor 795 735> mark @Anchor11 
+    ligComponent
+      <anchor -120 615> mark @Anchor15 <anchor 0 -255> mark @Anchor14 <anchor 135 -270> mark @Anchor13 <anchor 750 735> mark @Anchor12 <anchor 195 1260> mark @Anchor11 ;
+  pos ligature \U0722U0710Fina <anchor 570 750> mark @Anchor15 <anchor 735 -135> mark @Anchor14 <anchor 975 -195> mark @Anchor13 <anchor 855 765> mark @Anchor12 <anchor 870 810> mark @Anchor11 
+    ligComponent
+      <anchor -90 615> mark @Anchor15 <anchor 0 -180> mark @Anchor14 <anchor 165 -285> mark @Anchor13 <anchor 195 1320> mark @Anchor12 <anchor 210 1305> mark @Anchor11 ;
+  pos ligature \U0723U071bIsol <anchor 1170 765> mark @Anchor15 <anchor 1455 -150> mark @Anchor14 <anchor 1500 -195> mark @Anchor13 <anchor 480 1050> mark @Anchor12 <anchor 1455 795> mark @Anchor11 
+    ligComponent
+      <anchor 90 465> mark @Anchor15 <anchor 60 -495> mark @Anchor14 <anchor 525 -705> mark @Anchor13 <anchor 1695 720> mark @Anchor12 <anchor 465 1035> mark @Anchor11 ;
+  pos ligature \U0723U071bFina <anchor 1170 705> mark @Anchor15 <anchor 1500 -150> mark @Anchor14 <anchor 1500 -210> mark @Anchor13 <anchor 1875 705> mark @Anchor12 <anchor 1455 750> mark @Anchor11 
+    ligComponent
+      <anchor 135 465> mark @Anchor15 <anchor 45 -525> mark @Anchor14 <anchor 540 -705> mark @Anchor13 <anchor 450 1065> mark @Anchor12 <anchor 450 1035> mark @Anchor11 ;
+  pos ligature \U0723U071bInit <anchor 1005 735> mark @Anchor15 <anchor 1365 -180> mark @Anchor14 <anchor 1380 -210> mark @Anchor13 <anchor 0 0> mark @Anchor12 <anchor 1335 750> mark @Anchor11 
+    ligComponent
+      <anchor 60 390> mark @Anchor15 <anchor -30 -540> mark @Anchor14 <anchor 390 -630> mark @Anchor13 <anchor 0 0> mark @Anchor12 <anchor 360 1035> mark @Anchor11 ;
+  pos ligature \U0723U071bMedi <anchor 975 690> mark @Anchor15 <anchor 1380 -150> mark @Anchor14 <anchor 1365 -195> mark @Anchor13 <anchor 330 1005> mark @Anchor12 <anchor 1335 735> mark @Anchor11 
+    ligComponent
+      <anchor 30 360> mark @Anchor15 <anchor -60 -510> mark @Anchor14 <anchor 405 -660> mark @Anchor13 <anchor 1845 645> mark @Anchor12 <anchor 345 975> mark @Anchor11 ;
+  pos ligature \U071bU0720Isol <anchor 1245 645> mark @Anchor15 <anchor 2085 -495> mark @Anchor14 <anchor 2040 -420> mark @Anchor13 <anchor 2085 135> mark @Anchor12 <anchor 1575 1050> mark @Anchor11 
+    ligComponent
+      <anchor -165 495> mark @Anchor15 <anchor 810 -150> mark @Anchor14 <anchor 735 -180> mark @Anchor13 <anchor 195 1170> mark @Anchor12 <anchor 150 1125> mark @Anchor11 ;
+  pos ligature \U071bU0720Fina <anchor 1065 660> mark @Anchor15 <anchor 2040 -495> mark @Anchor14 <anchor 1950 -435> mark @Anchor13 <anchor 180 1110> mark @Anchor12 <anchor 1395 1035> mark @Anchor11 
+    ligComponent
+      <anchor -225 465> mark @Anchor15 <anchor 705 -165> mark @Anchor14 <anchor 645 -195> mark @Anchor13 <anchor 1980 420> mark @Anchor12 <anchor 195 1155> mark @Anchor11 ;
+  pos ligature \U071bU0720Init <anchor 900 510> mark @Anchor15 <anchor 1770 -495> mark @Anchor14 <anchor 1725 -405> mark @Anchor13 <anchor 1770 90> mark @Anchor12 <anchor 1260 1050> mark @Anchor11 
+    ligComponent
+      <anchor -195 540> mark @Anchor15 <anchor 345 -150> mark @Anchor14 <anchor 330 -195> mark @Anchor13 <anchor 105 1140> mark @Anchor12 <anchor 120 1170> mark @Anchor11 ;
+  pos ligature \U071bU0720Medi <anchor 825 720> mark @Anchor15 <anchor 1815 -465> mark @Anchor14 <anchor 1725 -330> mark @Anchor13 <anchor 1755 390> mark @Anchor12 <anchor 1125 975> mark @Anchor11 
+    ligComponent
+      <anchor -105 495> mark @Anchor15 <anchor 405 -150> mark @Anchor14 <anchor 345 -195> mark @Anchor13 <anchor 90 1155> mark @Anchor12 <anchor 120 1185> mark @Anchor11 ;
+  pos ligature \U0725U0020U0710Isol <anchor 300 780> mark @Anchor15 <anchor 585 -375> mark @Anchor14 <anchor 570 -450> mark @Anchor13 <anchor 675 1110> mark @Anchor12 <anchor 945 1140> mark @Anchor11 ;
+  pos ligature \U0725U0020U0710Fina <anchor 330 735> mark @Anchor15 <anchor 585 -375> mark @Anchor14 <anchor 1245 -195> mark @Anchor13 <anchor 855 1050> mark @Anchor12 <anchor 1035 1140> mark @Anchor11 ;
+  pos ligature \U071cU0725Isol <anchor 1050 480> mark @Anchor15 <anchor 1905 -480> mark @Anchor14 <anchor 1800 -405> mark @Anchor13 <anchor 1905 480> mark @Anchor12 <anchor 1380 1065> mark @Anchor11 
+    ligComponent
+      <anchor 0 90> mark @Anchor15 <anchor 540 -150> mark @Anchor14 <anchor 420 -210> mark @Anchor13 <anchor 315 660> mark @Anchor12 <anchor 420 735> mark @Anchor11 ;
+  pos ligature \U071cU0725Fina <anchor 945 510> mark @Anchor15 <anchor 1920 -390> mark @Anchor14 <anchor 1815 -360> mark @Anchor13 <anchor 1800 360> mark @Anchor12 <anchor 1200 1050> mark @Anchor11 
+    ligComponent
+      <anchor -60 135> mark @Anchor15 <anchor 540 -120> mark @Anchor14 <anchor 450 -210> mark @Anchor13 <anchor 360 675> mark @Anchor12 <anchor 285 705> mark @Anchor11 ;
+  pos ligature \U071cU0725Init <anchor 690 540> mark @Anchor15 <anchor 1590 -480> mark @Anchor14 <anchor 1470 -405> mark @Anchor13 <anchor 1545 150> mark @Anchor12 <anchor 990 1080> mark @Anchor11 
+    ligComponent
+      <anchor -120 285> mark @Anchor15 <anchor 195 -165> mark @Anchor14 <anchor 135 -195> mark @Anchor13 <anchor 210 720> mark @Anchor12 <anchor 150 765> mark @Anchor11 ;
+  pos ligature \U071cU0725Medi <anchor 600 585> mark @Anchor15 <anchor 1500 -480> mark @Anchor14 <anchor 1485 -345> mark @Anchor13 <anchor 1485 375> mark @Anchor12 <anchor 870 1035> mark @Anchor11 
+    ligComponent
+      <anchor -150 285> mark @Anchor15 <anchor 225 -165> mark @Anchor14 <anchor 135 -225> mark @Anchor13 <anchor 255 720> mark @Anchor12 <anchor 135 735> mark @Anchor11 ;
+  pos ligature \U072cU0720Isol <anchor 1260 600> mark @Anchor15 <anchor 2160 -420> mark @Anchor14 <anchor 2070 -210> mark @Anchor13 <anchor 0 0> mark @Anchor12 <anchor 1560 1020> mark @Anchor11 
+    ligComponent
+      <anchor -120 465> mark @Anchor15 <anchor 810 -105> mark @Anchor14 <anchor 645 -195> mark @Anchor13 <anchor 0 0> mark @Anchor12 <anchor 150 1125> mark @Anchor11 ;
+  pos ligature \U072cU0720Fina <anchor 1095 525> mark @Anchor15 <anchor 2070 -450> mark @Anchor14 <anchor 1995 -375> mark @Anchor13 <anchor 1995 360> mark @Anchor12 <anchor 1350 1005> mark @Anchor11 
+    ligComponent
+      <anchor -60 420> mark @Anchor15 <anchor 705 -120> mark @Anchor14 <anchor 555 -210> mark @Anchor13 <anchor 135 1080> mark @Anchor12 <anchor 135 1155> mark @Anchor11 ;
+  pos ligature \U072cU0720Init <anchor 915 570> mark @Anchor15 <anchor 1800 -435> mark @Anchor14 <anchor 1740 -375> mark @Anchor13 <anchor 1695 75> mark @Anchor12 <anchor 1245 1050> mark @Anchor11 
+    ligComponent
+      <anchor -150 450> mark @Anchor15 <anchor 420 -165> mark @Anchor14 <anchor 285 -210> mark @Anchor13 <anchor 720 765> mark @Anchor12 <anchor 45 1185> mark @Anchor11 ;
+  pos ligature \U072cU0720Medi <anchor 795 645> mark @Anchor15 <anchor 1830 -435> mark @Anchor14 <anchor 1740 -330> mark @Anchor13 <anchor 1725 405> mark @Anchor12 <anchor 1125 1020> mark @Anchor11 
+    ligComponent
+      <anchor 90 405> mark @Anchor15 <anchor 450 -135> mark @Anchor14 <anchor 270 -210> mark @Anchor13 <anchor 660 795> mark @Anchor12 <anchor 15 1140> mark @Anchor11 ;
+} markMarkPositioninginSyriaclookup4;
+
+lookup mkmkMarktoMarkinSyriaclookup5 {
+  lookupflag RightToLeft;
+  markClass [\U0656 ] <anchor 210 0> @Anchor16;
+  markClass [\U0303 ] <anchor 255 0> @Anchor16;
+  markClass [\U0304 \U0308 ] <anchor 300 -15> @Anchor16;
+  markClass [\U0307 \U0652 ] <anchor 135 -15> @Anchor16;
+  markClass [\U064b \U0735 ] <anchor 195 0> @Anchor16;
+  markClass [\U064c \U0736 ] <anchor 285 -15> @Anchor16;
+  markClass [\U064e \U0654 ] <anchor 195 -15> @Anchor16;
+  markClass [\U064f ] <anchor 255 -15> @Anchor16;
+  markClass [\U0651 ] <anchor 240 -15> @Anchor16;
+  markClass [\U0653 ] <anchor 270 -15> @Anchor16;
+  markClass [\U0711 ] <anchor 60 -15> @Anchor16;
+  markClass [\U0730 ] <anchor 315 30> @Anchor16;
+  markClass [\U0733 ] <anchor 210 -15> @Anchor16;
+  markClass [\U073a ] <anchor 345 -15> @Anchor16;
+  markClass [\U073d ] <anchor 420 -15> @Anchor16;
+  markClass [\U073f ] <anchor 60 -30> @Anchor16;
+  markClass [\U0743 ] <anchor 150 0> @Anchor16;
+  markClass [\U0745 ] <anchor 345 0> @Anchor16;
+  markClass [\U0747 ] <anchor 285 0> @Anchor16;
+  markClass [\U0749 ] <anchor 525 0> @Anchor16;
+  markClass [\U074a ] <anchor 225 0> @Anchor16;
+  pos mark [\U0656 ] <anchor 270 300> mark @Anchor16;
+  pos mark [\U0303 ] <anchor 300 315> mark @Anchor16;
+  pos mark [\U0304 ] <anchor 330 285> mark @Anchor16;
+  pos mark [\U0307 ] <anchor 150 480> mark @Anchor16;
+  pos mark [\U0308 \U064b ] <anchor 180 345> mark @Anchor16;
+  pos mark [\U064c ] <anchor 315 555> mark @Anchor16;
+  pos mark [\U064e ] <anchor 165 240> mark @Anchor16;
+  pos mark [\U064f ] <anchor 300 615> mark @Anchor16;
+  pos mark [\U0651 ] <anchor 180 195> mark @Anchor16;
+  pos mark [\U0652 ] <anchor 120 435> mark @Anchor16;
+  pos mark [\U0653 ] <anchor 285 285> mark @Anchor16;
+  pos mark [\U0654 ] <anchor 195 495> mark @Anchor16;
+  pos mark [\U0711 \U0743 ] <anchor 90 690> mark @Anchor16;
+  pos mark [\U0730 ] <anchor 75 570> mark @Anchor16;
+  pos mark [\U0733 ] <anchor 285 705> mark @Anchor16;
+  pos mark [\U0735 ] <anchor 195 345> mark @Anchor16;
+  pos mark [\U0736 ] <anchor 270 570> mark @Anchor16;
+  pos mark [\U073a ] <anchor 240 585> mark @Anchor16;
+  pos mark [\U073d ] <anchor 285 675> mark @Anchor16;
+  pos mark [\U073f ] <anchor 75 285> mark @Anchor16;
+  pos mark [\U0745 ] <anchor 330 645> mark @Anchor16;
+  pos mark [\U0747 ] <anchor 165 405> mark @Anchor16;
+  pos mark [\U0749 ] <anchor -60 690> mark @Anchor16;
+  pos mark [\U074a ] <anchor 225 600> mark @Anchor16;
+} mkmkMarktoMarkinSyriaclookup5;
+
+lookup mkmkMarktoMarkinSyriaclookup6 {
+  lookupflag RightToLeft;
+  markClass [\U0331 ] <anchor 300 0> @Anchor17;
+  markClass [\U0323 \U0744 ] <anchor 135 15> @Anchor17;
+  markClass [\U0324 ] <anchor 300 15> @Anchor17;
+  markClass [\U032d ] <anchor 300 300> @Anchor17;
+  markClass [\U032e ] <anchor 270 -15> @Anchor17;
+  markClass [\U0330 ] <anchor 330 15> @Anchor17;
+  markClass [\U064d ] <anchor 195 0> @Anchor17;
+  markClass [\U0650 ] <anchor 165 15> @Anchor17;
+  markClass [\U0655 \U0738 \U0739 ] <anchor 210 15> @Anchor17;
+  markClass [\U0731 ] <anchor 375 -15> @Anchor17;
+  markClass [\U0734 ] <anchor 195 15> @Anchor17;
+  markClass [\U0737 ] <anchor 270 15> @Anchor17;
+  markClass [\U073b ] <anchor 255 15> @Anchor17;
+  markClass [\U073c ] <anchor 90 15> @Anchor17;
+  markClass [\U073e ] <anchor 285 15> @Anchor17;
+  markClass [\U0746 ] <anchor 330 0> @Anchor17;
+  markClass [\U0748 ] <anchor 225 0> @Anchor17;
+  pos mark [\U0331 ] <anchor 330 -235> mark @Anchor17;
+  pos mark [\U0323 ] <anchor 150 -405> mark @Anchor17;
+  pos mark [\U0324 ] <anchor 315 -345> mark @Anchor17;
+  pos mark [\U032d ] <anchor 300 -30> mark @Anchor17;
+  pos mark [\U032e ] <anchor 315 -480> mark @Anchor17;
+  pos mark [\U0330 ] <anchor 285 -285> mark @Anchor17;
+  pos mark [\U064d ] <anchor 195 -360> mark @Anchor17;
+  pos mark [\U0650 ] <anchor 210 -255> mark @Anchor17;
+  pos mark [\U0655 ] <anchor 150 -285> mark @Anchor17;
+  pos mark [\U0731 ] <anchor 450 -615> mark @Anchor17;
+  pos mark [\U0734 ] <anchor 150 -660> mark @Anchor17;
+  pos mark [\U0737 ] <anchor 0 0> mark @Anchor17;
+  pos mark [\U0738 \U0739 ] <anchor 195 -225> mark @Anchor17;
+  pos mark [\U073b ] <anchor 240 -555> mark @Anchor17;
+  pos mark [\U073c ] <anchor 60 -255> mark @Anchor17;
+  pos mark [\U073e ] <anchor 255 -660> mark @Anchor17;
+  pos mark [\U0744 ] <anchor 150 -675> mark @Anchor17;
+  pos mark [\U0746 ] <anchor 345 -570> mark @Anchor17;
+  pos mark [\U0748 ] <anchor 195 -495> mark @Anchor17;
+} mkmkMarktoMarkinSyriaclookup6;
+
+lookup kernHorizontalKerninginSyriaclookup7 {
+  lookupflag RightToLeft IgnoreMarks;
+    pos \U0710 \U0713  <0 0 0 0>;
+} kernHorizontalKerninginSyriaclookup7;
+
+lookup mkmkMarktoMarkinSyriaclookup8 {
+  lookupflag 0;
+  markClass [\U064b ] <anchor 195 15> @Anchor18;
+  markClass [\U064c ] <anchor 210 15> @Anchor18;
+  markClass [\U064e ] <anchor 210 0> @Anchor18;
+  markClass [\U064f ] <anchor 255 0> @Anchor18;
+  markClass [\U0651 ] <anchor 210 -15> @Anchor18;
+  pos mark [\U064b ] <anchor 135 390> mark @Anchor18;
+  pos mark [\U064e ] <anchor 120 225> mark @Anchor18;
+  pos mark [\U0651 ] <anchor 165 360> mark @Anchor18;
+  pos mark [\U0654 ] <anchor 180 285> mark @Anchor18;
+} mkmkMarktoMarkinSyriaclookup8;
+
+lookup kernHorizontalKerninginSyriaclookup9 {
+  lookupflag RightToLeft;
+    pos \U0710Medi2 \U0715  <120 0 15 0>;
+} kernHorizontalKerninginSyriaclookup9;
+
+lookup kernHorizontalKerninginSyriaclookup10 {
+  lookupflag RightToLeft;
+    pos \U0710 \U072a  <0 0 0 0>;
+} kernHorizontalKerninginSyriaclookup10;
+
+feature mark {
+
+ script syrc;
+     language dflt ;
+      lookup markMarkPositioninginSyriaclookup0;
+      lookup markMarkPositioninginSyriaclookup1;
+      lookup markMarkPositioninginSyriaclookup2;
+      lookup markMarkPositioninginSyriaclookup3;
+      lookup markMarkPositioninginSyriaclookup4;
+} mark;
+
+feature mkmk {
+
+ script syrc;
+     language dflt ;
+      lookup mkmkMarktoMarkinSyriaclookup5;
+      lookup mkmkMarktoMarkinSyriaclookup6;
+      lookup mkmkMarktoMarkinSyriaclookup8;
+} mkmk;
+
+feature kern {
+
+ script syrc;
+     language dflt ;
+      lookup kernHorizontalKerninginSyriaclookup7;
+      lookup kernHorizontalKerninginSyriaclookup9;
+      lookup kernHorizontalKerninginSyriaclookup10;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.notdef \.null \nonmarkingreturn \space \uni03D4 \glyph5 \exclam 
+	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
+	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
+	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
+	\question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar \braceright 
+	\asciitilde \exclamdown \cent \sterling \currency \yen \brokenbar \section 
+	\dieresis \copyright \ordfeminine \guillemotleft \logicalnot \registered 
+	\overscore \degree \plusminus \twosuperior \threesuperior \acute \mu1 
+	\paragraph \middot \cedilla \onesuperior \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \Amacron \amacron \Emacron \emacron \Imacron \imacron 
+	\Omacron \omacron \Umacron \umacron \U02c0 \U02c1 \U02d2 \U02d3 \quoteleft 
+	\quoteright \quotedblleft \quotedblright \glyph212 \U1e06 \U1e07 \U1e0c \U1e0d 
+	\U1e0e \U1e0f \U0047U0331 \U0067U0331 \U1e24 \U1e25 \U1e34 \U1e35 \U0050U0331 
+	\U0070U0331 \U1e62 \U1e63 \U1e6c \U1e6d \U1e6e \U1e6f \U1e92 \U1e93 
+	\U0640ThreeQuart \U0640Quart \U0640Half \U060c \U061b \U061f \U0621 \U0640 
+	\U0660 \U0661 \U0662 \U0663 \U0664 \U0665 \U0666 \U0667 \U0668 \U0669 \U0700 \U0701 
+	\U0702 \U0703 \U0704 \U0705 \U0706 \U0707 \U0708 \U0709 \U070a \U070b \U070c \U070d 
+	\U070f \U0710 \U0712 \U0713 \U0714 \U0715 \U0716 \U0717 \U0718 \U0719 \U071a \U071b 
+	\U071c \U071d \U071e \U071f \U0720 \U0721 \U0722 \U0723 \U0724 \U0725 \U0726 \U0727 
+	\U0728 \U0729 \U072a \U072b \U072c \U200c \U200d \U200e \U200f \U25cc \U2670 \U2671 
+	\U0710Medi2 \U0710Fina1 \U0710Fina2 \U0710Fina3 \U0712Init \U0712Medi 
+	\U0712Fina \U0713Init \U0713Medi \U0713Fina \U0714Init \U0714Medi \U0714Fina 
+	\U0715Fina \U0716Fina \U0717Fina \U0718Fina \U0719Fina \U071aInit \U071aMedi 
+	\U071aFina \U071bInit \U071bMedi \U071bFina \U071cInit \U071cMedi \U071cFina 
+	\U071dInit \U071dMedi \U071dFina \U071eFina \U071fInit \U071fMedi \U071fFina 
+	\U0720Init \U0720Medi \U0720Fina \U0721Init \U0721Medi \U0721Fina \U0722Init 
+	\U0722Medi \U0722Fina \U0723Init \U0723Medi \U0723Fina \U0724Init \U0724Medi 
+	\U0724Fina \U0725Init \U0725Medi \U0725Fina \U0726Init \U0726Medi \U0726Fina 
+	\U0727Init \U0727Medi \U0727Fina \U0728Fina \U0729Init \U0729Medi \U0729Fina 
+	\U072aFina \U072bInit \U072bMedi \U072bFina \U072cFina \U071BU0725Fina 
+	\U071BU0725Init \U071BU0725Medi \glyph482 \glyph483 \glyph484 \glyph485 
+	\glyph486 \glyph487 \glyph488 \glyph489 \glyph490 \glyph491 \glyph492 \glyph493 
+	\glyph494 \glyph495 \glyph496 \glyph497 \glyph498 \glyph499 \glyph500 \glyph501 
+	\glyph502 \glyph503 \glyph504 \glyph505 \glyph506 \glyph507 \glyph508 \glyph509 
+	\glyph510 \glyph511 \glyph512 \glyph513 \glyph514 \glyph515 \glyph516 \glyph517 
+	\glyph518 \glyph519 \glyph520 \glyph521 \glyph522 \glyph523 \glyph524 \glyph525 
+	\glyph526 \glyph527 \glyph528 \glyph529 \glyph530 \glyph531 \glyph532 \glyph533 
+	\glyph534 \glyph535 \glyph536 \glyph537 \glyph538 \glyph539 \glyph540 \glyph541 
+	\glyph542 \glyph543 \glyph544 \glyph545 \glyph546 \glyph547 \nonbreakingspace 
+	\glyph549 \bullet \bulletmath \endash ];
+@GDEF_Ligature = [\U0720U0710Isol \U0720U0710Fina \U0728U0722Isol 
+	\U0728U0722Fina \U0710U0720Isol \U0710U0720Fina \U0710U0720Init 
+	\U0710U0720Medi \U0713U0720Isol \U0713U0720Fina \U0713U0720Init 
+	\U0713U0720Medi \U0713U0725Isol \U0713U0725Fina \U0713U0725Init 
+	\U0713U0725Medi \U071bU0725Isol \U071bU0725Fina \U071bU0725Init 
+	\U071bU0725Medi \U071dU072cIsol \U071bU072cFina \U071fU0720Isol 
+	\U071fU0720Fina \U071fU0720Init \U071fU0720Medi \U071fU072cIsol 
+	\U071fU072cFina \U0720U0020U0710Isol \U0720U0020U0710Fina \U0720U0720Isol 
+	\U0720U0720Fina \U0720U0720Init \U0720U0720Medi \U0722U0710Isol 
+	\U0722U0710Fina \U0723U071bIsol \U0723U071bFina \U0723U071bInit 
+	\U0723U071bMedi \U071bU0720Isol \U071bU0720Fina \U071bU0720Init 
+	\U071bU0720Medi \U072aU0308Isol \U072aU0308Fina \U0725U0020U0710Isol 
+	\U0725U0020U0710Fina \U071cU0725Isol \U071cU0725Fina \U071cU0725Init 
+	\U071cU0725Medi \U072cU0720Isol \U072cU0720Fina \U072cU0720Init 
+	\U072cU0720Medi ];
+@GDEF_Mark = [\U0656 \U0303 \U0304 \U0307 \U0308 \U030a \U0331 \U0323 \U0324 \U0325 
+	\U032d \U032e \U0330 \U064b \U064c \U064d \U064e \U064f \U0650 \U0651 \U0652 \U0653 
+	\U0654 \U0655 \U0670 \U0711 \U0730 \U0731 \U0732 \U0733 \U0734 \U0735 \U0736 \U0737 
+	\U0738 \U0739 \U073a \U073b \U073c \U073d \U073e \U073f \U0740 \U0741 \U0742 \U0743 
+	\U0744 \U0745 \U0746 \U0747 \U0748 \U0749 \U074a ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+

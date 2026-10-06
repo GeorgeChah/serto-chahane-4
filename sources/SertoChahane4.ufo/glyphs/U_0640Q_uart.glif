@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U0640Quart" format="2">
+  <advance width="129"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="129" y="0" type="line"/>
+      <point x="-70" y="0" type="line"/>
+      <point x="-70" y="176" type="line"/>
+      <point x="129" y="176" type="line"/>
+    </contour>
+  </outline>
+</glyph>
