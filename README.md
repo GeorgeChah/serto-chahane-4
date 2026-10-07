@@ -1,6 +1,6 @@
 # Serto Chahane 4
 
-**Serto Chahane 4** is an open-source Syriac typeface representing the classic Serto style of Syriac script. Originally created in 2009 by George Chahane in Lebanon, this font is released under the SIL Open Font License 1.1 for open-source distribution and use.
+**Serto Chahane 4 is an open-source Syriac typeface representing the classic script  Syriac western style. and is used on platforms associated with the Syriac Orthodox Church in Lebanon and the Middle East. Originally created in 2009 by George Chahane, Beirut- Lebanon. 
 
 ---
 
